@@ -29,7 +29,21 @@ faa-dashboard/
 ├── www/ # Static assets like logos/images
 └── README.md # You're here!
 
+## 💾 Data
+
+- Source: U.S. Bureau of Transportation Statistics (BTS)
+- Scope: ~7 million flight records
+- Time Frame: July 2022 – June 2023
+- Filtered to top 10 U.S. airports and top 10 airlines
+- Saved as `airline_data.rds` for performance
+
+> **Note:** Due to file size, the `.rds` is stored at this sharable googldrive link: https://drive.google.com/file/d/1W9PkGTq0N__YXn_xBvDG8qTMTrK9qgX2/view?usp=drive_link
+
+
+
 The aim of this dashboard is to put the FAA in the driver's seat and provide them data-empowered insights into which airlines and airports are struggling and when. It is known that the FAA has a limited budget and is able to act as a regulatory agent.
 Ultimately, this dashboard helps pin point the worst delay offenders, for both airports and airlines, and target times of day and periods throughout the year where staffing needs to be increased.
+
+
 Enjoy!
 
